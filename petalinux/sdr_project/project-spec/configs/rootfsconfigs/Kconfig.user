@@ -1,0 +1,22 @@
+menu "user packages " 
+config libiio  
+	 bool "libiio"
+	 help
+	
+config libiio-iiod  
+	 bool "libiio-iiod"
+	 help
+	
+config libiio-tests  
+	 bool "libiio-tests"
+	 help
+	
+config gpio-demo  
+	 bool "gpio-demo"
+	 help
+	
+config peekpoke  
+	 bool "peekpoke"
+	 help
+	
+endmenu
